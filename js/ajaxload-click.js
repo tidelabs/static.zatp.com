@@ -26,7 +26,7 @@ function aln() {
             },
                 
             success: function(d) {
-                var c = $(d).find("#main .post"),
+                var c = $(d).find("#main .post-list"),
                 e = $(d).find(a).attr("href");
                 if (c) {
                     $('.ajaxload').before(c)
